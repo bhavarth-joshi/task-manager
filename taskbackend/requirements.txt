@@ -1,0 +1,10 @@
+django
+djangorestframework
+djangorestframework-simplejwt
+openpyxl 
+django-cors-headers
+python-decouple
+et_xmlfile
+PyJWT
+sqlparse
+tzdata
