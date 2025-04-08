@@ -1,0 +1,21 @@
+# Node.js
+auth-backend/node_modules/
+frontend/node_modules/
+
+# Python
+venv/
+*.pyc
+__pycache__/
+
+# VSCode
+.vscode/
+
+# Environment files
+*.env
+
+# OS stuff
+.DS_Store
+Thumbs.db
+
+# Excel exports
+*.xlsx
