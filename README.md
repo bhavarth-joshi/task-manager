@@ -151,12 +151,11 @@ Authorization: Bearer jwt.token
 ```
 
 ### 📥 Sample: Create Task
-
-```json
-POST /api/tasks/
+POST `/api/tasks/`
 Authorization: Bearer jwt.token
 Content-Type: application/json
 
+```json
 {
   "title": "Finish project",
   "description": "Complete the full-stack task manager",
