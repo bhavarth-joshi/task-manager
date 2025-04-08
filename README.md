@@ -102,11 +102,9 @@ Runs at: [http://localhost:5173](http://localhost:5173)
 | `/login`    | POST   | Login with username/password |
 
 ### 📥 Sample: Register
-
-```json
-POST /api/auth/register
+POST `/api/auth/register`
 Content-Type: application/json
-
+```json
 {
   "username": "username",
   "password": "password123"
@@ -114,11 +112,10 @@ Content-Type: application/json
 ```
 
 ### 📥 Sample: Login
-
-```json
-POST /api/auth/login
+POST `/api/auth/login`
 Content-Type: application/json
 
+```json
 {
   "username": "username",
   "password": "password123"
